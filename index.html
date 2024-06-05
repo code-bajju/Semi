@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'CustomMokoto';
+            src: url('/mokoto.ttf') format('truetype');
+        }
+
+        .custom-font {
+            font-family: 'CustomMokoto', sans-serif;
+			color: #FFDD59;
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen flex flex-col justify-center items-center bg-[#D94C31]">
+        <img src="2.png" alt="Logo" class="object-cover w-40 h-40 mb-8 border border-[#FFDD59] rounded-full">
+        <h1 class="custom-font text-4xl font-bold mb-4">Coming Soon</h1>
+        <p class="custom-font text-lg mb-8 px-4 md:px-0">We're working hard to bring you something awesome. Stay tuned!</p>
+        <div class="flex justify-center items-center space-x-4">
+            <a href="#" class="custom-font text-[#D94C31] hover:text-[#FFDD59] bg-[#FFDD59] hover:bg-[#D94C31] px-4 py-2 rounded-md">Learn More</a>
+            <a href="#" class="custom-font text-[#FFDD59] hover:text-[#D94C31] hover:bg-[#FFDD59] px-4 py-2 rounded-md">Contact Us</a>
+        </div>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
